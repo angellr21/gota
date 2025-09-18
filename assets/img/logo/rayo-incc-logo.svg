@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60" role="img" aria-labelledby="title desc">
+  <title id="title">RAYO INCC</title>
+  <desc id="desc">Logotipo minimalista para RAYO INCC con rayo verde</desc>
+  <rect width="220" height="60" fill="none"/>
+  <polygon points="80,8 64,32 86,32 72,52 108,20 86,20" fill="#79C702"/>
+  <text x="10" y="40" font-size="30" font-family="'Futura','Helvetica Neue',Arial,sans-serif" font-weight="700" fill="#0F0F0F">RAYO</text>
+  <text x="120" y="40" font-size="30" font-family="'Futura','Helvetica Neue',Arial,sans-serif" font-weight="600" fill="#0F0F0F">INCC</text>
+</svg>
