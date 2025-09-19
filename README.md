@@ -44,5 +44,6 @@ Cambia los valores hexadecimales en ambos archivos, guarda y vuelve a cargar el 
 
 ## Recursos adicionales
 
-- Logo de la marca: `assets/img/logo/logo-1.png` (principal) y `assets/img/logo/logo-2.png` (alternativo).
+- Logo principal: `assets/img/logo/logo-1.png`.
+- Logo alternativo: `assets/img/logo/logo-2.png`.
 - Fragmentos reutilizables (head, navbar y footer) en `includes/` para integraciones con motores de plantillas.
