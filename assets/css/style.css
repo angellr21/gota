@@ -609,6 +609,10 @@
   --animate-duration: 1s;
   --animate-delay: 1s;
   --animate-repeat: 1 ;
+  --color-primary: #ffffff;
+  --color-secondary: #79C702;
+  --color-secondary-dark: #5fa300;
+  --color-text-dark: #0f0f0f;
 }
 
 .animate__animated {
@@ -4316,7 +4320,8 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #666;
+  color: var(--color-text-dark);
+  background-color: var(--color-primary);
 }
 
 .img, img {
@@ -4361,7 +4366,7 @@ a:focus,
 
 a:focus,
 a:hover {
-  color: inherit;
+  color: var(--color-secondary);
   text-decoration: none;
 }
 
@@ -5883,7 +5888,7 @@ label {
 .sub-title {
   font-size: 18px;
   font-weight: 600;
-  color: #2bb9a9;
+  color: var(--color-secondary);
   text-transform: uppercase;
   font-family: "Barlow Condensed", Sans-serif;
 }
@@ -5927,7 +5932,7 @@ label {
 }
 
 .lightbluee {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 /***********************
@@ -6024,7 +6029,7 @@ label {
   display: inline-block;
 }
 .gota_top li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -6110,7 +6115,7 @@ label {
   transition: all 0.3s ease-out 0s;
 }
 .additional_dropdown li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -6250,7 +6255,7 @@ label {
   font-weight: 600;
 }
 .main-menu ul li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -6472,7 +6477,7 @@ label {
   color: #ffffff;
 }
 .main-menu.white-color ul li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -6511,7 +6516,7 @@ label {
   text-align: center;
 }
 .popup_offer p span {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 .gota_call p {
@@ -6654,7 +6659,7 @@ label {
   }
 }
 .gota_vertical_menu .vertical-dropdown li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -6882,7 +6887,7 @@ label {
   }
 }
 .gota_cart_3 a {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   padding: 16px 60px;
   color: #ffffff;
   border-radius: 3px;
@@ -12184,9 +12189,9 @@ input:-ms-input-placeholder {
 }
 
 .categories__tab .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   background-color: #fff;
-  border: 1px solid #2bb9a9 !important;
+  border: 1px solid var(--color-secondary) !important;
   border-radius: 0;
 }
 
@@ -12302,7 +12307,7 @@ input:-ms-input-placeholder {
   text-transform: capitalize;
 }
 .product__name h4:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -12584,7 +12589,7 @@ input:-ms-input-placeholder {
   padding: 15px 15px;
 }
 .list-actions a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 .border-top {
@@ -12700,7 +12705,7 @@ input:-ms-input-placeholder {
 }
 
 .product__update .lightblueclr {
-  background: #2bb9a9;
+  background: var(--color-secondary);
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -12752,7 +12757,7 @@ input:-ms-input-placeholder {
 .blog__content > span {
   display: inline-block;
   padding: 7px 8px;
-  background: #2bb9a9;
+  background: var(--color-secondary);
   color: #ffffff;
   font-size: 13px;
   font-weight: 500;
@@ -12800,7 +12805,7 @@ input:-ms-input-placeholder {
   width: 100%;
   bottom: 0;
   transition: height 0.5s ease-out;
-  background: linear-gradient(to bottom, transparent 0%, #2bb9a9 100%);
+  background: linear-gradient(to bottom, transparent 0%, var(--color-secondary) 100%);
 }
 .blog:hover::before {
   height: 100%;
@@ -12836,7 +12841,7 @@ input:-ms-input-placeholder {
   text-decoration: none;
 }
 .blog-title:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -12862,7 +12867,7 @@ input:-ms-input-placeholder {
   width: 100%;
   bottom: 0;
   transition: height 0.5s ease-out;
-  background: linear-gradient(to bottom, transparent 0%, #2bb9a9 100%);
+  background: linear-gradient(to bottom, transparent 0%, var(--color-secondary) 100%);
 }
 .bpost__thumb:hover::before {
   height: 100%;
@@ -12883,7 +12888,7 @@ input:-ms-input-placeholder {
 .bpost__content > span {
   display: inline-block;
   padding: 7px 8px;
-  background: #2bb9a9;
+  background: var(--color-secondary);
   color: #ffffff;
   font-size: 13px;
   font-weight: 500;
@@ -12896,7 +12901,7 @@ input:-ms-input-placeholder {
   font-family: "Futura Std Book";
 }
 .bpost__content p span {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bpost__content p {
@@ -12944,7 +12949,7 @@ input:-ms-input-placeholder {
   right: 31%;
   top: 50%;
   transform: translateY(-50%);
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .send {
@@ -13244,7 +13249,7 @@ input:-ms-input-placeholder {
 }
 .bigpost__content h4 {
   font-size: 16px;
-  color: #2bb9a9;
+  color: var(--color-secondary);
   font-weight: 400;
   font-family: "Futura Std Book";
 }
@@ -13293,7 +13298,7 @@ input:-ms-input-placeholder {
   }
 }
 .b-title:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -13305,7 +13310,7 @@ input:-ms-input-placeholder {
   font-size: 13px;
 }
 .post-meta p span {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 @media (max-width: 767px) {
@@ -13344,7 +13349,7 @@ input:-ms-input-placeholder {
   transition: all 0.3s ease-out 0s;
 }
 .pagination ul li a:hover {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -13354,7 +13359,7 @@ input:-ms-input-placeholder {
 
 .grid_blog__content h4 {
   font-size: 16px;
-  color: #2bb9a9;
+  color: var(--color-secondary);
   font-family: "Futura Std Book";
 }
 .grid_blog__content p {
@@ -14047,7 +14052,7 @@ input:-ms-input-placeholder {
   font-family: "Futura Std Book";
 }
 .company__info ul li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -14088,7 +14093,7 @@ input:-ms-input-placeholder {
   transition: all 0.3s ease-out 0s;
 }
 .social__media a:hover {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -14114,8 +14119,8 @@ input:-ms-input-placeholder {
 }
 .subscribe button {
   display: inline-block;
-  background: #2bb9a9;
-  color: #ffffff;
+  background: var(--color-secondary);
+  color: var(--color-primary);
   border: 0;
   position: absolute;
   height: 50px;
@@ -14174,7 +14179,7 @@ input:-ms-input-placeholder {
   }
 }
 .footer__bottom p span {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 .footer-menu ul li {
@@ -14206,7 +14211,7 @@ input:-ms-input-placeholder {
   }
 }
 .footer-menu ul li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -14459,10 +14464,16 @@ input:-ms-input-placeholder {
 
 .btn-style-1 {
   font-size: 18px;
-  color: #2bb9a9;
+  color: var(--color-text-dark);
   text-transform: uppercase;
-  background: #ffffff;
+  background: var(--color-secondary);
   padding: 10px 30px;
+  border: 2px solid var(--color-secondary);
+}
+.btn-style-1:hover {
+  color: var(--color-primary);
+  background: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
 }
 
 .product__countdown-inner {
@@ -14525,7 +14536,7 @@ input:-ms-input-placeholder {
 }
 .testimonial__content h4 span {
   font-weight: 600;
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 @media (max-width: 767px) {
@@ -14609,7 +14620,7 @@ input:-ms-input-placeholder {
   transition: all 0.3s ease-out 0s;
 }
 .sidebar-content ul li a:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -14819,7 +14830,7 @@ input:-ms-input-placeholder {
   transition: all 0.3s ease-out 0s;
 }
 .tags a:hover {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   color: #ffffff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -15134,7 +15145,7 @@ ul.color-list li:hover {
   text-transform: capitalize;
 }
 .viewcontent__header h2:hover {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 @media (max-width: 767px) {
   .viewcontent__header h2 {
@@ -15585,7 +15596,7 @@ ul.color-list li:hover {
 }
 
 .company__social {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   padding: 35px 0;
   margin-top: -6px;
 }
@@ -15753,7 +15764,7 @@ ul.color-list li:hover {
 }
 .submit-btn input:hover {
   background: transparent;
-  border: 1px solid #2bb9a9;
+  border: 1px solid var(--color-secondary);
   color: #222222;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -15843,11 +15854,11 @@ ul.color-list li:hover {
 }
 .contact-single__thumb i {
   font-size: 50px;
-  color: #2bb9a9;
+  color: var(--color-secondary);
   display: inline-block;
   height: 100px;
   width: 100px;
-  border: 2px solid #2bb9a9;
+  border: 2px solid var(--color-secondary);
   border-radius: 50%;
   text-align: center;
   line-height: 100px;
@@ -15929,7 +15940,7 @@ ul.color-list li:hover {
 .service-single a {
   display: inline-block;
   padding: 9px 46px;
-  background: #2bb9a9;
+  background: var(--color-secondary);
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -15964,7 +15975,7 @@ ul.color-list li:hover {
   content: "";
   height: 2px;
   width: 50px;
-  background: #2bb9a9;
+  background: var(--color-secondary);
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -16131,23 +16142,23 @@ button.accordion-button::after {
 .categories__tab .nav-tabs .nav-link {
   margin-bottom: -1px;
   background: 0 0;
-  border: 2px solid #2bb9a9;
+  border: 2px solid var(--color-secondary);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
 
 .categories__tab .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   background-color: #fff;
   border-radius: 0;
 }
 
 .categories__tab .nav-tabs li button.active {
-  border: 2px solid #2bb9a9 !important;
+  border: 2px solid var(--color-secondary) !important;
 }
 
 .search_tab .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   background-color: #fff;
   border-radius: 0;
 }
@@ -16401,13 +16412,13 @@ button.accordion-button::after {
   font-family: "Futura Std Book";
   background-color: #f7f6f7;
   padding: 15px 0;
-  border-top: 2px solid #2bb9a9;
+  border-top: 2px solid var(--color-secondary);
   margin-bottom: 30px;
   padding-left: 15px;
 }
 .notification__message p i {
   padding-right: 15px;
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 .checkout__wrap label {
@@ -16541,10 +16552,10 @@ button.accordion-button::after {
 }
 
 .checkout__accordion .accordion-button:not(.collapsed) {
-  color: #2bb9a9;
+  color: var(--color-secondary);
   background-color: transparent;
   box-shadow: none;
-  border: 1px solid #2bb9a9;
+  border: 1px solid var(--color-secondary);
 }
 
 .add_cart_product {
@@ -16589,7 +16600,7 @@ button.accordion-button::after {
 .end {
   margin-left: 108px;
   letter-spacing: 2px;
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 .cart-bottom__text a {
@@ -16611,7 +16622,7 @@ button.accordion-button::after {
   text-align: center;
 }
 .cart-bottom__text a:hover {
-  border: 2px solid #2bb9a9;
+  border: 2px solid var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -16685,7 +16696,7 @@ button.accordion-button::after {
   transition: all 0.3s ease-out 0s;
 }
 .input_wrap button:hover {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -16865,7 +16876,7 @@ button.accordion-button::after {
   }
 }
 .single_action span a::before {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   color: #ffffff;
 }
 .single_action span a:hover {
@@ -17074,7 +17085,7 @@ button.accordion-button::after {
   transition: all 0.3s ease-out 0s;
 }
 .review__wrap button:hover {
-  background: #2bb9a9;
+  background: var(--color-secondary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -17083,7 +17094,7 @@ button.accordion-button::after {
 }
 
 .categories__tab.single_disc_tab .nav-tabs .nav-item .nav-link.active {
-  color: #2bb9a9;
+  color: var(--color-secondary);
 }
 
 /*# sourceMappingURL=style.css.map */
